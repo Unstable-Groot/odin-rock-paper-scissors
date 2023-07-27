@@ -46,28 +46,3 @@ function playRound(playerSelection, computerSelection) {
 
     return "Tie! No one wins.";
 }
-
-function game() {
-    let pseclection = prompt("Please enter your choice (rock, paper, scissors)");
-    let cselection = getComputerChoice();
-    console.log(playRound(pseclection,cselection));
-
-    pseclection = prompt("Please enter your choice (rock, paper, scissors)");
-    cselection = getComputerChoice();
-    console.log(playRound(pseclection,cselection));
-
-    pseclection = prompt("Please enter your choice (rock, paper, scissors)");
-    cselection = getComputerChoice();
-    console.log(playRound(pseclection,cselection));
-
-    pseclection = prompt("Please enter your choice (rock, paper, scissors)");
-    cselection = getComputerChoice();
-    console.log(playRound(pseclection,cselection));
-
-    pseclection = prompt("Please enter your choice (rock, paper, scissors)");
-    cselection = getComputerChoice();
-    console.log(playRound(pseclection,cselection));
-
-}
-
-game();
