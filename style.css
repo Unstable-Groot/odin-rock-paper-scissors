@@ -40,10 +40,6 @@ h1 {
     height: 100%;
 }
 
-.btn-container button:hover {
- 
-}
-
 .btn-container button:active {
     background-color: #e6feff;
     border: 5px solid #93a3a1;
